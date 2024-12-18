@@ -7,6 +7,6 @@ frontend:
         deploy:
             - npm install
     subdomain: azure-enough-platypus
-name: vision-ui-dashboard-react
+name: dashboard_redfox-coders
 region: us-east-1
 yamlVersion: 2
