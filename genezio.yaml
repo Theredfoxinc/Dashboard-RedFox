@@ -6,7 +6,7 @@ frontend:
             - npm run build
         deploy:
             - npm install
-    subdomain: azure-enough-platypus
-name: dashboard_redfox-coders
+    subdomain: lightgoldenrodyellow-japanese-weasel
+name: dashboard
 region: us-east-1
 yamlVersion: 2
