@@ -22,15 +22,15 @@ import { BrowserRouter } from "react-router-dom";
 import App from "App";
 
 // Vision UI Dashboard React Context Provider
-import { VisionUIControllerProvider } from "context";
+import { UIControllerProvider } from "context";
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 
 root.render(<BrowserRouter>
-  <VisionUIControllerProvider>
+  <UIControllerProvider>
     <App />
-  </VisionUIControllerProvider>
+  </UIControllerProvider>
 </BrowserRouter>)
 
